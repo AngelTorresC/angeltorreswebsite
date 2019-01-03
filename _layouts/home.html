@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <!-- Cal to action button
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                </ul>
+              -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        <!-- Section Header -->
+        <!--
+        <section id="one">
+          <div class="inner">
+                <header class="major">
+                    <h2>Work Samples</h2>
+                </header>
+            </div>
+        </section>
+      -->
+        <!--
+        {% include tiles.html %}
+      -->
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>Work Samples</h2>
+                </header>
+
+                <div class="box alt">
+                  <div class="row 50% uniform">
+
+                    <div class="4u">
+                      <span class="image fit">
+                        <a href="http://localhost:4000/portfolio/2018/10/18/burritocapital.html">
+                        <img src="assets/images/burrito-capital-thumbnail.png" alt="">
+                        <h3> Burrito Capital </h3>
+                        </a>
+                      </span>
+                    </div>
+
+                    <div class="4u">
+                      <span class="image fit">
+                        <a href="http://localhost:4000/portfolio/2018/10/18/southpacifico.html">
+                        <img src="assets/images/south-pacifico-thumbnail.png" alt="">
+                        <h3> South Pacifico Dining </h3>
+                        </a>
+                      </span>
+                    </div>
+
+                    <div class="4u">
+                      <span class="image fit">
+                        <a href="http://localhost:4000/portfolio/2018/10/18/joshmirandaband.html">
+                        <img src="assets/images/josh-miranda-band-thumbnail.png" alt="">
+                        <h3> Josh Miranda Band </h3>
+                        </a>
+                      </span>
+                    </div>
+
+                    <!-- Break -->
+                  </div>
+                </div>
+
+                <!-- <p>{{ content }}</p> -->
+                <ul class="actions">
+                    <li><a href="landing.html" class="button next">View More</a></li>
+                </ul>
+            </div>
+        </section>
+
+
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
